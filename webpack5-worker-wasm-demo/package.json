@@ -1,0 +1,43 @@
+{
+  "author": "Victor Gavrish <victor.gavrish@gmail.com>",
+  "name": "create-rust-wasm-worker",
+  "version": "0.1.0",
+  "repository": "https://github.com/rustwasm/rust-wasm-worker-template",
+  "license": "Apache-2.0/MIT",
+  "scripts": {
+    "start": "webpack-dev-server -d",
+    "build": "rm -rf ./dist && webpack --mode production"
+  },
+  "bin": {
+    "create-rust-wasm-worker": ".bin/create-rust-wasm-worker.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "autoprefixer": "^10.3.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "cssnano": "^5.0.7",
+    "html-webpack-plugin": "^5.3.1",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "style-loader": "^3.2.1",
+    "typescript": "^4.3.5",
+    "webpack": "^5.37.0",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-manifest-plugin": "^2.2.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
