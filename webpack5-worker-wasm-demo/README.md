@@ -1,5 +1,5 @@
 # Find two images diffident
-use web worker webassembly opencv(C++) to find images diffident
+use web worker webassembly opencv(C++) to find images diffident in the browser
 
 # Build & Run
 `npm install`  
